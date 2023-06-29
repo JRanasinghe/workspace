@@ -1,0 +1,19 @@
+{
+  "name": "Custom Cardano & Plutus",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "ppp",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "denoland.vscode-deno",
+        "haskell.haskell",
+        "vigoo.stylish-haskell"
+      ],
+      "settings": {
+        "haskell.formattingProvider": "stylish-haskell"
+      }
+    }
+  }
+}
